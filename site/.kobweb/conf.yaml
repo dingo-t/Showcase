@@ -1,0 +1,14 @@
+site:
+  title: "Showcase Application"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/Showcase.js"
+      api: "build/libs/Showcase.jar"
+    prod:
+      script: "build/distributions/Showcase.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
